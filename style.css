@@ -5,7 +5,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -44,7 +45,7 @@ a {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #ff1e00;
+  background-color: #7cfc00;
 }
 
 .nav-menu {
@@ -60,17 +61,20 @@ a {
 .nav-link {
   font-size: 1.2rem;
   font-weight: 400;
-  color: #ff513a;
+  /* color: #7cfc00; */
+  color: #355e3b;
 }
 
 .nav-link:hover {
-  color: #f72f72;
+  color: #355e3b;
+  /* color: #7cfc00; */
 }
 
 .nav-logo {
   font-size: 1.3rem;
   font-weight: 500;
-  color: #ff1e00;
+  color: #355e3b;
+  /* color: #7cfc00; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -116,7 +120,7 @@ a {
 }
 
 .background {
-  background-image: url(./bg.webp);
+  background-image: url(./bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -191,7 +195,8 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 1rem;
-  color: #ff1e00;
+  color: #355e3b;
+  /* color: #7cfc00; */
   cursor: pointer;
   margin-left: 50px;
 }
@@ -268,7 +273,7 @@ a {
   max-width: 600px;
   text-align: center;
 }
-.service_boxes{
+.service_boxes {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -277,10 +282,11 @@ a {
   margin-top: 50px;
   padding: 0 80px;
 }
-.service_box{
+.service_box {
   height: 450px;
   width: 350px;
-  border: 1px solid #f0604d;
+  border: 1px solid #355e3b;
+  /* border: 1px solid #7cfc00; */
   border-radius: 15px;
   margin: 20px 10px;
   padding: 0 20px;
@@ -290,27 +296,29 @@ a {
   flex-direction: column;
   justify-content: center;
   transition: 200ms ease-in;
+  background-color: #d2b48c;
 }
-.service_box .icon-bg{
+.service_box .icon-bg {
   margin-bottom: -30px;
 }
-.service_box .icon{
+.service_box .icon {
   position: relative;
   top: -85px;
 }
-.service_box h4{
+.service_box h4 {
   font-size: 30px;
   margin-bottom: 15px;
+  color: #355e3b;
 }
-.service_box p{
-  color: grey;
+.service_box p {
+  color: #48684d;
 }
-.service_box:hover{
+.service_box:hover {
   margin-top: 5px;
   box-shadow: 0 5px 10px #999;
   border: 1px solid white;
 }
-.pet_care{
+.pet_care {
   width: 100vw;
   padding: 0 50px;
   margin-top: 150px;
@@ -318,36 +326,38 @@ a {
   justify-content: space-around;
   align-items: center;
 }
-.pet_care img{
+.pet_care img {
   width: 40vw;
   object-fit: contain;
   border-radius: 20px;
 }
-.pet_care .pet_info{
+.pet_care .pet_info {
   padding: 0 40px;
   width: 40vw;
 }
-.pet_info h3{
+.pet_info h3 {
   line-height: 60px;
 }
-.pet_info .care1{
+.pet_info .care1 {
   font-size: 2.5rem;
   font-weight: 300;
 }
-.pet_info .care2{
- font-size: 3rem;
+.pet_info .care2 {
+  font-size: 3rem;
   font-weight: 800;
   margin-bottom: 30px;
-  color: #ff1e00;
+  /* color: #7cfc00; */
+  color: #355e3b;
 }
-.pet_info p{
+.pet_info p {
   color: grey;
   margin-bottom: 30px;
 }
-.pet_info .about_button{
+.pet_info .about_button {
   padding: 0.9rem 1.2rem;
   border-radius: 25px;
-  background-color: #ff513a;
+  background-color: #355e3b;
+  /* background-color: #7cfc00; */
   border: 0;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -357,47 +367,169 @@ a {
   margin-left: 0px;
 }
 @media screen and (max-width: 1080px) {
-  .pet_info .care1{
+  .pet_info .care1 {
     font-size: 2rem;
-
   }
-  .pet_info .care2{
-   font-size: 2.5rem;
- 
+  .pet_info .care2 {
+    font-size: 2.5rem;
   }
-  .pet_info h3{
+  .pet_info h3 {
     line-height: 50px;
   }
 }
 @media screen and (max-width: 900px) {
-  .pet_info .care1{
+  .pet_info .care1 {
     font-size: 1.5rem;
-
   }
-  .pet_info .care2{
-   font-size: 2rem;
- 
+  .pet_info .care2 {
+    font-size: 2rem;
   }
-  .pet_info h3{
+  .pet_info h3 {
     line-height: 50px;
   }
 }
 @media screen and (max-width: 768px) {
-  .pet_care{
+  .pet_care {
     flex-direction: column;
   }
-  .pet_care img{
+  .pet_care img {
     width: 60vw;
     margin-bottom: 30px;
   }
-  .pet_care .pet_info{
+  .pet_care .pet_info {
     padding: 0 40px;
     width: 80vw;
     text-align: center;
   }
 }
 @media screen and (max-width: 500px) {
-  .pet_care{
+  .pet_care {
     padding: 0 20px;
+  }
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  margin-top: 100px;
+}
+.head h3 {
+  color: #355E3B;
+  /* color: #7cfc00; */
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.head p {
+  color: grey;
+  max-width: 600px;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .head h3 {
+    font-size: 2rem;
+  }
+}
+
+.container1 {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.container1 .box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 420px;
+  margin: 20px;
+  background: #355E3B;
+  /* background: #56a906; */
+  border-radius: 1rem;
+}
+
+.container1 .box .box-content {
+  padding: 30px;
+  text-align: center;
+}
+
+.container1 .box .box-content .quote {
+  max-width: 48px;
+}
+
+.container1 .box .box-content p {
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container1 .box .box-content .user {
+  max-width: 72px;
+  border-radius: 50%;
+}
+
+.container1 .box .box-content h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1050px) {
+  .container1 {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container1 .box {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+}
+
+.wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper img {
+  margin: 30px;
+  border-radius: 1rem;
+  width: 500px;
+  object-fit: contain;
+  box-shadow: 0px 5px 10px rgb(169, 221, 169);
+  transition: 200ms ease;
+}
+.wrapper img:hover {
+  transform: scale(1.08);
+}
+@media (max-width: 768px) {
+  .wrapper img {
+    width: 450px;
+  }
+}
+@media (max-width: 500px) {
+  .wrapper img {
+    width: 400px;
   }
 }
