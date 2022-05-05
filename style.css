@@ -535,3 +535,12 @@ p{
     width: 400px;
   }
 }
+
+.footer_logo{
+  color: #111; margin-right: 50px
+}
+@media (max-width: 500px) {
+  .footer_logo{
+    margin-right: 0px
+  }
+}
