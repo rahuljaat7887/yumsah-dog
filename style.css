@@ -17,7 +17,7 @@ li {
 a {
   text-decoration: none;
 }
-p{
+p {
   line-height: 1.7;
 }
 .header {
@@ -239,7 +239,8 @@ p{
 }
 @media screen and (max-width: 550px) {
   .header1 img {
-    width: 100%; margin-bottom: 50px;
+    width: 85%;
+    margin-bottom: 70px;
   }
   .left-content h1 {
     font-size: 2rem;
@@ -426,7 +427,7 @@ p{
   margin-top: 100px;
 }
 .head h3 {
-  color: #355E3B;
+  color: #355e3b;
   /* color: #7cfc00; */
   font-size: 3rem;
   margin-bottom: 10px;
@@ -461,7 +462,7 @@ p{
   width: 320px;
   height: 420px;
   margin: 20px;
-  background: #355E3B;
+  background: #355e3b;
   /* background: #56a906; */
   border-radius: 1rem;
 }
@@ -537,11 +538,12 @@ p{
   }
 }
 
-.footer_logo{
-  color: #111; margin-right: 50px
+.footer_logo {
+  color: #111;
+  margin-right: 50px;
 }
 @media (max-width: 500px) {
-  .footer_logo{
-    margin-right: 0px
+  .footer_logo {
+    margin-right: 0px;
   }
 }
