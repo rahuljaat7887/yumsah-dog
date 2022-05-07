@@ -239,7 +239,7 @@ p{
 }
 @media screen and (max-width: 550px) {
   .header1 img {
-    width: 100%;
+    width: 100%; margin-bottom: 50px;
   }
   .left-content h1 {
     font-size: 2rem;
